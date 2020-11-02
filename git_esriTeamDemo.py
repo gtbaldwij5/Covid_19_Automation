@@ -7,7 +7,7 @@ import pandas as pd
 arcpy.env.workspace = # r"Path/To/Geodatabase.gdb"
 gdb =  # r"Path/To/Geodatabase.gdb"
 project_folder =  # r"Path/To/Project"
-aprx_global = # r"Path/To/Project"
+aprx_global = # r"Path/To/Project.aprx"
 print(arcpy.env.workspace)
 print(arcpy.env.workspace)
 data_url_atlantic = r'https://covidtracking.com/data/download/all-states-history.csv'
